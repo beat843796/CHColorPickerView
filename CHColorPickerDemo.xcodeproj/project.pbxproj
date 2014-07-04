@@ -58,6 +58,7 @@
 		ABCD67E81966CBCD00B5CFF4 /* CHColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHColorPickerView.m; path = CHColorPicker/CHColorPickerView.m; sourceTree = "<group>"; };
 		ABCD67EA1966D29F00B5CFF4 /* UIColor+extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+extensions.h"; path = "../UIColor+extensions.h"; sourceTree = "<group>"; };
 		ABCD67EB1966D29F00B5CFF4 /* UIColor+extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+extensions.m"; path = "../UIColor+extensions.m"; sourceTree = "<group>"; };
+		ABCD67F11966F7BD00B5CFF4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 		ABCD67A81966CAB500B5CFF4 = {
 			isa = PBXGroup;
 			children = (
+				ABCD67F11966F7BD00B5CFF4 /* README.md */,
 				ABCD67E31966CADF00B5CFF4 /* CHColorPicker */,
 				ABCD67BA1966CAB500B5CFF4 /* CHColorPickerDemo */,
 				ABCD67D31966CAB500B5CFF4 /* CHColorPickerDemoTests */,
@@ -484,6 +486,7 @@
 				ABCD67DF1966CAB500B5CFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABCD67E01966CAB500B5CFF4 /* Build configuration list for PBXNativeTarget "CHColorPickerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +495,7 @@
 				ABCD67E21966CAB500B5CFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
