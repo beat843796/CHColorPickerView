@@ -9,7 +9,7 @@ Easy to use color picker for iOS with just one delegate method. Supports iPhone 
 - Implement the delegate method in your ViewController
 
 
-Setting up the SectionSelectionView (Example)
+Setting up the ColorPicker (Example)
 
 ```objc
 	colorPickerView = [[CHColorPickerView alloc] init];
