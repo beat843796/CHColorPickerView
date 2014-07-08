@@ -297,7 +297,7 @@
     
     [self setColorCell:[collectionView cellForItemAtIndexPath:indexPath] selected:YES];
     
-    NSLog(@"Selected color");
+    _selectedColor = [colors objectAtIndex:indexPath.row];
     
     if (delegate && [delegate respondsToSelector:@selector(colorPickerView:didSelectColor:)]) {
         [delegate colorPickerView:self didSelectColor:[colors objectAtIndex:indexPath.row]];
