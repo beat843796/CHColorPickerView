@@ -30,7 +30,7 @@
 }
 
 
-@property (nonatomic, strong) UIColor selectedColor;                                // the current selected color
+@property (nonatomic, strong) UIColor *selectedColor;                                // the current selected color
 
 // Delegates
 @property (nonatomic, weak) id<CHColorPickerViewDelegate> delegate;                 // The Color Pickers Delegate, may be nil
